@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # Parse an Android strings.xml file to translate it in Google Translate by Copy and Paste
-# creates files formatted to be copy and paste in Google Agenda
+# creates files formatted to be copy and paste in Google Translate
 # creates empty files where you paste Google Translate result
 # then use rctranslate-recreate.py to recreate strings.xml for Android
 
