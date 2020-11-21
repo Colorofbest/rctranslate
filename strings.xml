@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="url">http://colorofbest.com</string>
+  <string name="text">Colorofbest</string> 
+  <string name="complex_text">This is <b>html tag</b> and one ' quote</string>
+  <string name="multiline">First line
+    \nLine 2
+    \nLine 3
+  </string>
+  <string-array name="my_array"> 
+	<item>Item 1</item>
+	<item>Item 2 with <i>html</i></item>
+	<item>Item 3</item>
+	<item>Item 4</item>
+  </string-array>
+</resources>
