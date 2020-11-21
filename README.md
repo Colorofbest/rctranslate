@@ -39,3 +39,6 @@ Copy "totranslate-X.txt" data into Google Translate, one by one
  
  
  Generated files are in "work" directory.
+ 
+ I have created this project to translate my app "The Calendar Pro", available on the [Play Store](https://play.google.com/store/apps/details?id=com.colorofbest.justeuncalendrier.pro)
+ 
