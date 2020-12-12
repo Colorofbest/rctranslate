@@ -121,8 +121,8 @@ print("total elements : " + str(iElement))
 print("total files : " + str(cptFile))
 print("")
 print("Now :")
-print(" - copy and translate (in Google Translate) files in " + WORK_DIRECTORY + " : " + ", ".join(listFilesToTranslate))
-print(" - paste result in" + WORK_DIRECTORY + " : " + ", ".join(listFilesToTranslate))
+print(" - copy and translate (in Google Translate) files in \"" + WORK_DIRECTORY + "\" directory : " + ", ".join(listFilesToTranslate))
+print(" - paste result in \"" + WORK_DIRECTORY + "\" directory : " + ", ".join(listFilesToTranslate))
 
 
 

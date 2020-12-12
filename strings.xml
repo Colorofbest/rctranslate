@@ -3,7 +3,7 @@
   <string name="url">http://colorofbest.com</string>
   <string name="text">Colorofbest</string> 
   <string name="complex_text">This is <b>html tag</b> and one ' quote</string>
-  <string name="multiline">First line
+  <string name="multiline">First line and %1$d parameter, also %2$s parameter
     \nLine 2
     \nLine 3
   </string>

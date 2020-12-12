@@ -23,7 +23,13 @@ import time
 #replace the element with new text translated
 #not prefect with html tags : they are encoded in final xml
 def update_element(parent, elem, txt):
-    s = html.unescape(txt.replace('\\ ', '\\').replace('\\ n ', '\\n').replace('\\n ', '\\n').replace('/ ', '/').strip()).replace("'", r"\'")
+    txt = re.sub('% ([ds])', r' %\1', txt)
+    txt = re.sub('% ([\d]) \$ ([ds])', r' %\1$\2', txt)
+    s = html.unescape(txt.replace('\\ ', '\\')
+                      .replace('\\ n ', '\\n')
+                      .replace('\\n ', '\\n')
+                      .replace('/ ', '/').strip()
+                      ).replace("'", r"\'")
 
     elem.text = html.unescape(s)
 
