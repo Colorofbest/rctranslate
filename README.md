@@ -6,6 +6,9 @@ There are other projects to translate Android xml string files. But when you hav
 With this project I suggest you a manual translation in the Google Translate webpage (or another translation app).
 Allows to copy and paste a lot of translations at one time (and maybe better translations with a better context, because there are a lot of words).
 
+Because a web page is more practical and easier to use, I then developed this same [tool to translate your Android strings.xml](http://colorofbest.com/en/android-string-translate/)
+
+
 # Prerequisite
 Python 3
 
